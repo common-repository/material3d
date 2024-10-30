@@ -1,0 +1,68 @@
+
+.m3d-page-info {
+    font-size: 16px;
+    margin: 10px 20px;
+}
+
+
+.m3d-admin-wrap{
+    & > .section {
+        font-size: 16px;
+        padding: 10px 0;
+
+        & > .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        & > .content {
+            p {
+                font-size: 16px;
+            }
+
+            & > .help-list {
+                border: 1px solid #212121;
+                border-collapse: collapse;
+                th, td {
+                    border: 1px solid #212121;
+                    padding: 5px 5px;
+                }
+            }
+
+            & > .support-form {
+                max-width: 800px;
+                display: grid;
+                row-gap: 10px;
+                justify-content: stretch;
+
+                & > * {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .button-primary {
+        padding: 0 25px;
+        font-size: 16px;
+    }
+}
+
+a.m3d-help-btn {
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+    margin: 0 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #0073aa;
+    text-decoration: none;
+    transition: background-color 500ms;
+
+    &:hover {
+        background-color: rgba(0,0,0, 0.1);
+    }
+}

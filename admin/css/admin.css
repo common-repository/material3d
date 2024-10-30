@@ -1,0 +1,75 @@
+.m3d-page-info {
+  font-size: 16px;
+  margin: 10px 20px;
+}
+
+.m3d-admin-wrap > .section {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.m3d-admin-wrap > .section > .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.m3d-admin-wrap > .section > .content p {
+  font-size: 16px;
+}
+
+.m3d-admin-wrap > .section > .content > .help-list {
+  border: 1px solid #212121;
+  border-collapse: collapse;
+}
+
+.m3d-admin-wrap > .section > .content > .help-list th, .m3d-admin-wrap > .section > .content > .help-list td {
+  border: 1px solid #212121;
+  padding: 5px 5px;
+}
+
+.m3d-admin-wrap > .section > .content > .support-form {
+  max-width: 800px;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 10px;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.m3d-admin-wrap > .section > .content > .support-form > * {
+  font-size: 16px;
+}
+
+.m3d-admin-wrap .button-primary {
+  padding: 0 25px;
+  font-size: 16px;
+}
+
+a.m3d-help-btn {
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  margin: 0 3px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 1px 1px #0073aa;
+          box-shadow: 0 0 1px 1px #0073aa;
+  text-decoration: none;
+  -webkit-transition: background-color 500ms;
+  transition: background-color 500ms;
+}
+
+a.m3d-help-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=admin.css.map */
